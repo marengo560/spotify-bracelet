@@ -1,0 +1,1 @@
+1. Correct the BUSY signal configuration to pull-down input mode, affecting the sleep current. After changing to the pull-up input, the sleep current is reduced to 1uA.
