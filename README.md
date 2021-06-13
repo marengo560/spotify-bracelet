@@ -8,7 +8,7 @@
 
 ![alt text](https://github.com/marengo560/spotify-bracelet/blob/master/imgs/img1.png?raw=true)
 
-## Anotations
+## Annotations
 
 ## TO DO
 
