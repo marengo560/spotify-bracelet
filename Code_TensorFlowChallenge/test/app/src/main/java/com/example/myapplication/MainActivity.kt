@@ -1,15 +1,20 @@
 package com.example.myapplication
 
 import android.os.Bundle
-import com.google.android.material.snackbar.Snackbar
+import android.view.Menu
+import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
-import android.view.Menu
-import android.view.MenuItem
 import com.example.myapplication.databinding.ActivityMainBinding
+import com.google.android.material.snackbar.Snackbar
+import com.spotify.android.appremote.api.SpotifyAppRemote
+
+private const val CLIENT_ID = " d610694a519b45c08fc28447033030ea"
+private const val REDIRECT_URI = "http://com.yourdomain.yourapp/callback"
+private val mSpotifyAppRemote: SpotifyAppRemote? = null
 
 class MainActivity : AppCompatActivity() {
 
